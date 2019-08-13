@@ -1,0 +1,333 @@
+# //  ModelSim SE-64 10.3 Jan  6 2014 Linux 2.6.32-573.7.1.el6.x86_64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L altera_mf soc_core_tb 
+# Start time: 15:52:05 on Jul 23,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.global_pkg(fast)
+# Loading work.soc_core_tb_sv_unit(fast)
+# Loading work.soc_core_tb(fast)
+# Loading work.soc_core_sv_unit(fast)
+# Loading work.soc_core(fast)
+# Loading work.interfaces_sv_unit(fast)
+# Loading work.axilite_if(fast__1)
+# Loading work.mem_if(fast__1)
+# Loading work.mem_if(fast__2)
+# Loading work.mem_if(fast__3)
+# Loading work.picorv32_pkg(fast)
+# Loading work.picorv32_wrapper_2_sv_unit(fast)
+# Loading work.picorv32_wrapper_2(fast)
+# Loading work.picorv32(fast)
+# Loading work.picorv32_pcpi_div(fast)
+# Loading work.picorv32_pcpi_fast_mul(fast)
+# Loading work.Hardware_Trojan_xor(fast)
+# Loading work.cache_pkg(fast)
+# Loading work.mem_icache_ctrl_sv_unit(fast)
+# Loading work.mem_icache_ctrl(fast)
+# Loading work.icache_sv_unit(fast)
+# Loading work.icache(fast)
+# Loading work.ram_sp(fast)
+# Loading work.ram_sp(fast__1)
+# Loading work.mem_dcache_ctrl_sv_unit(fast)
+# Loading work.mem_dcache_ctrl(fast)
+# Loading work.dcache_sv_unit(fast)
+# Loading work.dcache(fast)
+# Loading work.ram_sp(fast__2)
+# Loading work.ram_sp_Be(fast)
+# Loading work.mem_addr_decoder_sv_unit(fast)
+# Loading work.mem_addr_decoder(fast)
+# Loading work.mem_if(fast__4)
+# Loading work.mem2axilite_sv_unit(fast)
+# Loading work.mem2axilite(fast)
+# Loading work.mem2axi_sv_unit(fast)
+# Loading work.mem2axi(fast)
+# Loading work.xbar_pkg(fast)
+# Loading work.axi_crossbar(fast)
+# Loading work.axi_ar_xbar(fast)
+# Loading work.axi_ar_switch_sv_unit(fast)
+# Loading work.axi_ar_switch(fast)
+# Loading work.axi_ar_mux_sv_unit(fast)
+# Loading work.axi_ar_mux(fast)
+# Loading work.rr_arb(fast)
+# Loading work.axi_aw_xbar(fast)
+# Loading work.axi_aw_switch_sv_unit(fast)
+# Loading work.axi_aw_switch(fast)
+# Loading work.axi_aw_mux_sv_unit(fast)
+# Loading work.axi_aw_mux(fast)
+# Loading work.axi_r_xbar(fast)
+# Loading work.axi_r_switch_sv_unit(fast)
+# Loading work.axi_r_switch(fast)
+# Loading work.axi_r_mux_sv_unit(fast)
+# Loading work.axi_r_mux(fast)
+# Loading work.rr_arb(fast__1)
+# Loading work.axi_b_xbar(fast)
+# Loading work.axi_b_switch_sv_unit(fast)
+# Loading work.axi_b_switch(fast)
+# Loading work.axi_b_mux_sv_unit(fast)
+# Loading work.axi_b_mux(fast)
+# Loading work.ram_sp_Be(fast__1)
+# Loading work.axi_srom(fast)
+# Loading work.rom_rtl(fast)
+# Loading work.axi_sram_sv_unit(fast)
+# Loading work.axi_sram(fast)
+# Loading work.io_crossbar(fast)
+# Loading work.axilite_ar_if(fast__1)
+# Loading work.axilite_aw_if(fast__1)
+# Loading work.axilite_r_if(fast__2)
+# Loading work.axilite_b_if(fast__2)
+# Loading work.io_ar_xbar(fast)
+# Loading work.io_aw_xbar(fast)
+# Loading work.io_r_xbar(fast)
+# Loading work.io_b_xbar(fast)
+# Loading work.axi_uart(fast)
+# Loading work.uart(fast)
+# Loading work.axi_gpio_sv_unit(fast)
+# Loading work.axi_gpio(fast)
+# Loading work.axi_if(fast__1)
+# Loading work.axilite_if(fast__2)
+# Loading work.axi_ar_if(fast__1)
+# Loading work.axi_aw_if(fast__1)
+# Loading work.axi_r_if(fast__1)
+# Loading work.axi_b_if(fast__1)
+# Loading work.axilite_ar_if(fast__2)
+# Loading work.axilite_aw_if(fast__2)
+# Loading work.axilite_r_if(fast__1)
+# Loading work.axilite_b_if(fast__1)
+# Loading /auto/gli/Bureau/picorv32/DE1/sim_work/work/_sc/linux_x86_64_gcc-4.5.0/systemc.so
+# Loading /auto/gli/Bureau/picorv32/DE1/sim_work/work.xtermtty
+run
+# ** Warning: (vsim-7) Failed to open readmem file "foo.hex" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../ips/rtl/ram/ram_sp_Be.sv(43)
+#    Time: 0 ps  Iteration: 0  Instance: /soc_core_tb/DUT/picorv32_wrapper_2_i/mem_dcache_ctrl_i/dcache_i/gData[0]/ram_data
+# ** Warning: (vsim-7) Failed to open readmem file "foo.hex" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../ips/rtl/ram/ram_sp_Be.sv(43)
+#    Time: 0 ps  Iteration: 0  Instance: /soc_core_tb/DUT/picorv32_wrapper_2_i/mem_dcache_ctrl_i/dcache_i/gData[1]/ram_data
+# ** Warning: (vsim-7) Failed to open readmem file "foo.hex" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../ips/rtl/ram/ram_sp_Be.sv(43)
+#    Time: 0 ps  Iteration: 0  Instance: /soc_core_tb/DUT/picorv32_wrapper_2_i/mem_dcache_ctrl_i/dcache_i/gData[2]/ram_data
+# ** Warning: (vsim-7) Failed to open readmem file "foo.hex" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../ips/rtl/ram/ram_sp_Be.sv(43)
+#    Time: 0 ps  Iteration: 0  Instance: /soc_core_tb/DUT/picorv32_wrapper_2_i/mem_dcache_ctrl_i/dcache_i/gData[3]/ram_data
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 24577 of file "softs/bootloader.hex". Expected 32768, found 24576.    : ../ips/rtl/rom/rom_rtl.sv(24)
+#    Time: 0 ps  Iteration: 0  Instance: /soc_core_tb/DUT/axi_srom_0/rom_rtl_i
+# op1 = xx, op2 = xx, out = xx
+# op1 = 9fed0, op2 = ffffffd0, out = fff60100
+# op1 = 00, op2 = 01, out = 01
+# op1 = 01, op2 = 01, out = 00
+# op1 = 8816d, op2 = xx, out = xx
+# op1 = 01, op2 = 8a, out = 8b
+# op1 = 8b, op2 = 2b, out = a0 //op2=key[0]
+# op1 = 84, op2 = 7e, out = fa //op2=key[1]
+# op1 = 15, op2 = eb, out = fe //op1=key[2]
+# op1 = 01, op2 = 16, out = 17 //op2=key[3]
+# op1 = a0, op2 = 00, out = a0
+# op1 = a0, op2 = 28, out = 88 //op2=key[4]
+# op1 = fa, op2 = ae, out = 54 //op2=key[5]
+# op1 = d2, op2 = fe, out = 2c //op1=key[6]
+# op1 = 17, op2 = a6, out = b1 //op2=key[7]
+# op1 = 88, op2 = 00, out = 88
+# op1 = 88, op2 = ab, out = 23 //op2=key[8]
+# op1 = 54, op2 = f7, out = a3 //op2=key[9]
+# op1 = 15, op2 = 2c, out = 39 //op1=key[10]
+# op1 = b1, op2 = 88, out = 39 //op2=key[11]
+# op1 = 23, op2 = 00, out = 23
+# op1 = 23, op2 = 09, out = 2a //op2=key[12]
+# op1 = a3, op2 = cf, out = 6c //op2=key[13]
+# op1 = 4f, op2 = 39, out = 76 //op1=key[14]
+# op1 = 39, op2 = 3c, out = 05 //op2=key[15]
+# op1 = 8818e, op2 = xx, out = xx
+# op1 = 02, op2 = 50, out = 52
+# op1 = 52, op2 = a0, out = f2
+# op1 = 38, op2 = fa, out = c2
+# op1 = fe, op2 = 6b, out = 95
+# op1 = e5, op2 = 17, out = f2
+# op1 = f2, op2 = 00, out = f2
+# op1 = f2, op2 = 88, out = 7a
+# op1 = c2, op2 = 54, out = 96
+# op1 = 2c, op2 = 95, out = b9
+# op1 = f2, op2 = b1, out = 43
+# op1 = 7a, op2 = 00, out = 7a
+# op1 = 7a, op2 = 23, out = 59
+# op1 = 96, op2 = a3, out = 35
+# op1 = 39, op2 = b9, out = 80
+# op1 = 43, op2 = 39, out = 7a
+# op1 = 59, op2 = 00, out = 59
+# op1 = 59, op2 = 2a, out = 73
+# op1 = 35, op2 = 6c, out = 59
+# op1 = 76, op2 = 80, out = f6
+# op1 = 7a, op2 = 05, out = 7f
+# op1 = 881d7, op2 = xx, out = xx
+# op1 = 04, op2 = cb, out = cf
+# op1 = cf, op2 = f2, out = 3d
+# op1 = 42, op2 = c2, out = 80
+# op1 = 95, op2 = d2, out = 47
+# op1 = 8f, op2 = f2, out = 7d
+# op1 = 3d, op2 = 00, out = 3d
+# op1 = 3d, op2 = 7a, out = 47
+# op1 = 80, op2 = 96, out = 16
+# op1 = b9, op2 = 47, out = fe
+# op1 = 7d, op2 = 43, out = 3e
+# op1 = 47, op2 = 00, out = 47
+# op1 = 47, op2 = 59, out = 1e
+# op1 = 16, op2 = 35, out = 23
+# op1 = 80, op2 = fe, out = 7e
+# op1 = 3e, op2 = 7a, out = 44
+# op1 = 1e, op2 = 00, out = 1e
+# op1 = 1e, op2 = 73, out = 6d
+# op1 = 23, op2 = 59, out = 7a
+# op1 = f6, op2 = 7e, out = 88
+# op1 = 44, op2 = 7f, out = 3b
+# op1 = 881d1, op2 = xx, out = xx
+# op1 = 08, op2 = da, out = d2
+# op1 = d2, op2 = 3d, out = ef
+# op1 = c4, op2 = 80, out = 44
+# op1 = 47, op2 = e2, out = a5
+# op1 = 3c, op2 = 7d, out = 41
+# op1 = ef, op2 = 00, out = ef
+# op1 = ef, op2 = 47, out = a8
+# op1 = 44, op2 = 16, out = 52
+# op1 = fe, op2 = a5, out = 5b
+# op1 = 41, op2 = 3e, out = 7f
+# op1 = a8, op2 = 00, out = a8
+# op1 = a8, op2 = 1e, out = b6
+# op1 = 52, op2 = 23, out = 71
+# op1 = 7e, op2 = 5b, out = 25
+# op1 = 7f, op2 = 44, out = 3b
+# op1 = b6, op2 = 00, out = b6
+# op1 = b6, op2 = 6d, out = db
+# op1 = 71, op2 = 7a, out = 0b
+# op1 = 88, op2 = 25, out = ad
+# op1 = 3b, op2 = 3b, out = 00
+# op1 = 8823f, op2 = xx, out = xx
+# op1 = 10, op2 = 2b, out = 3b
+# op1 = 3b, op2 = ef, out = d4
+# op1 = 95, op2 = 44, out = d1
+# op1 = a5, op2 = 63, out = c6
+# op1 = b9, op2 = 41, out = f8
+# op1 = d4, op2 = 00, out = d4
+# op1 = d4, op2 = a8, out = 7c
+# op1 = d1, op2 = 52, out = 83
+# op1 = 5b, op2 = c6, out = 9d
+# op1 = f8, op2 = 7f, out = 87
+# op1 = 7c, op2 = 00, out = 7c
+# op1 = 7c, op2 = b6, out = ca
+# op1 = 83, op2 = 71, out = f2
+# op1 = 25, op2 = 9d, out = b8
+# op1 = 87, op2 = 3b, out = bc
+# op1 = ca, op2 = 00, out = ca
+# op1 = ca, op2 = db, out = 11
+# op1 = f2, op2 = 0b, out = f9
+# op1 = ad, op2 = b8, out = 15
+# op1 = bc, op2 = 00, out = bc
+# op1 = 88175, op2 = xx, out = xx
+# op1 = 20, op2 = 99, out = b9
+# op1 = b9, op2 = d4, out = 6d
+# op1 = 59, op2 = d1, out = 88
+# op1 = c6, op2 = 65, out = a3
+# op1 = 82, op2 = f8, out = 7a
+# op1 = 6d, op2 = 00, out = 6d
+# op1 = 6d, op2 = 7c, out = 11
+# op1 = 88, op2 = 83, out = 0b
+# op1 = 9d, op2 = a3, out = 3e
+# op1 = 7a, op2 = 87, out = fd
+# op1 = 11, op2 = 00, out = 11
+# op1 = 11, op2 = ca, out = db
+# op1 = 0b, op2 = f2, out = f9
+# op1 = b8, op2 = 3e, out = 86
+# op1 = fd, op2 = bc, out = 41
+# op1 = db, op2 = 00, out = db
+# op1 = db, op2 = 11, out = ca
+# op1 = f9, op2 = f9, out = 00
+# op1 = 15, op2 = 86, out = 93
+# op1 = 41, op2 = bc, out = fd
+# op1 = 8822e, op2 = xx, out = xx
+# op1 = 40, op2 = 63, out = 23
+# op1 = 23, op2 = 6d, out = 4e
+# op1 = dc, op2 = 88, out = 54
+# op1 = a3, op2 = 54, out = f7
+# op1 = 74, op2 = 7a, out = 0e
+# op1 = 4e, op2 = 00, out = 4e
+# op1 = 4e, op2 = 11, out = 5f
+# op1 = 54, op2 = 0b, out = 5f
+# op1 = 3e, op2 = f7, out = c9
+# op1 = 0e, op2 = fd, out = f3
+# op1 = 5f, op2 = 00, out = 5f
+# op1 = 5f, op2 = db, out = 84
+# op1 = 5f, op2 = f9, out = a6
+# op1 = 86, op2 = c9, out = 4f
+# op1 = f3, op2 = 41, out = b2
+# op1 = 84, op2 = 00, out = 84
+# op1 = 84, op2 = ca, out = 4e
+# op1 = a6, op2 = 00, out = a6
+# op1 = 93, op2 = 4f, out = dc
+# op1 = b2, op2 = fd, out = 4f
+# op1 = 881b2, op2 = xx, out = xx
+# op1 = 80, op2 = 24, out = a4
+# op1 = a4, op2 = 4e, out = ea
+# op1 = 86, op2 = 54, out = d2
+# op1 = f7, op2 = 84, out = 73
+# op1 = 2f, op2 = 0e, out = 21
+# op1 = ea, op2 = 00, out = ea
+# op1 = ea, op2 = 5f, out = b5
+# op1 = d2, op2 = 5f, out = 8d
+# op1 = c9, op2 = 73, out = ba
+# op1 = 21, op2 = f3, out = d2
+# op1 = b5, op2 = 00, out = b5
+# op1 = b5, op2 = 84, out = 31
+# op1 = 8d, op2 = a6, out = 2b
+# op1 = 4f, op2 = ba, out = f5
+# op1 = d2, op2 = b2, out = 60
+# op1 = 31, op2 = 00, out = 31
+# op1 = 31, op2 = 4e, out = 7f
+# op1 = 2b, op2 = a6, out = 8d
+# op1 = dc, op2 = f5, out = 29
+# op1 = 60, op2 = 4f, out = 2f
+# op1 = 881e3, op2 = xx, out = xx
+# op1 = 1b, op2 = 5d, out = 46
+# op1 = 46, op2 = ea, out = ac
+# op1 = a5, op2 = d2, out = 77
+# op1 = 73, op2 = 15, out = 66
+# op1 = d2, op2 = 21, out = f3
+# op1 = ac, op2 = 00, out = ac
+# op1 = ac, op2 = b5, out = 19
+# op1 = 77, op2 = 8d, out = fa
+# op1 = ba, op2 = 66, out = dc
+# op1 = f3, op2 = d2, out = 21
+# op1 = 19, op2 = 00, out = 19
+# op1 = 19, op2 = 31, out = 28
+# op1 = fa, op2 = 2b, out = d1
+# op1 = f5, op2 = dc, out = 29
+# op1 = 21, op2 = 60, out = 41
+# op1 = 28, op2 = 00, out = 28
+# op1 = 28, op2 = 7f, out = 57
+# op1 = d1, op2 = 8d, out = 5c
+# op1 = 29, op2 = 29, out = 00
+# op1 = 41, op2 = 2f, out = 6e
+# op1 = 881bb, op2 = xx, out = xx
+# op1 = 36, op2 = 4a, out = 7c
+# op1 = 7c, op2 = ac, out = d0
+# op1 = 63, op2 = 77, out = 14
+# op1 = 66, op2 = 9f, out = f9
+# op1 = 5b, op2 = f3, out = a8
+# op1 = d0, op2 = 00, out = d0
+# op1 = d0, op2 = 19, out = c9
+# op1 = 14, op2 = fa, out = ee
+# op1 = dc, op2 = f9, out = 25
+# op1 = a8, op2 = 21, out = 89
+# op1 = c9, op2 = 00, out = c9
+# op1 = c9, op2 = 28, out = e1
+# op1 = ee, op2 = d1, out = 3f
+# op1 = 29, op2 = 25, out = 0c
+# op1 = 89, op2 = 41, out = c8
+# op1 = e1, op2 = 00, out = e1
+# op1 = e1, op2 = 57, out = b6
+# op1 = 3f, op2 = 5c, out = 63
+# op1 = 00, op2 = 0c, out = 0c
+# op1 = c8, op2 = 6e, out = a6
